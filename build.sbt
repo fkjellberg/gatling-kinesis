@@ -29,7 +29,7 @@ lazy val library =
       val scalaCheck = "1.14.3"
       val scalaTest = "3.1.1"
       val scalaTestPlusScalaCheck = "3.1.1.1"
-      val gatlingVersion = "3.3.1"
+      val gatlingVersion = "3.9.2"
       val awsSdk = "2.11.12"
       val dockerTestKit = "0.9.9"
     }
@@ -60,7 +60,7 @@ lazy val settings = commonSettings ++ publishSettings ++ scalafmtSettings
 lazy val commonSettings =
   Seq(
     // scalaVersion from .travis.yml via sbt-travisci
-    // scalaVersion := "2.13.1",
+    // scalaVersion := "2.13.10",
     organization := "tubi",
     organizationName := "Marios",
     startYear := Some(2020),
