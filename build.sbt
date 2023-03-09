@@ -30,7 +30,7 @@ lazy val library =
       val scalaTest = "3.1.1"
       val scalaTestPlusScalaCheck = "3.1.1.1"
       val gatlingVersion = "3.9.2"
-      val awsSdk = "2.11.12"
+      val awsSdk = "2.20.20"
       val dockerTestKit = "0.9.9"
     }
 
