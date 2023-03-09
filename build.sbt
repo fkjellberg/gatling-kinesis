@@ -13,6 +13,7 @@ lazy val `gatling-kinesis` =
         library.gatlingHighCharts % Test,
         library.gatlingTestFramework % Test,
         library.gatlingCore,
+        library.gatlingCoreJava,
         library.awsSdkCore,
         library.awsKinesisSdk,
         library.awsStsSdk
@@ -42,6 +43,7 @@ lazy val library =
     val awsKinesisSdk = "software.amazon.awssdk" % "kinesis" % Version.awsSdk
     val awsStsSdk = "software.amazon.awssdk" % "sts" % Version.awsSdk
     val gatlingCore = "io.gatling" % "gatling-core" % Version.gatlingVersion
+    val gatlingCoreJava = "io.gatling" % "gatling-core-java" % Version.gatlingVersion
     val gatlingHighCharts = "io.gatling.highcharts" % "gatling-charts-highcharts" % Version.gatlingVersion
     val gatlingTestFramework = "io.gatling" % "gatling-test-framework" % Version.gatlingVersion
 
